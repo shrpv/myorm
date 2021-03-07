@@ -1,0 +1,186 @@
+/* Lottery */
+
+@media (width <= 640px) {
+  .lottery {
+    padding-top: 64px;
+
+    background-image: linear-gradient(to top, transparent 218px, var(--color-white) 218px, var(--color-white) 100%);
+  }
+}
+
+@media (width > 640px) {
+  .lottery {
+    padding-top: 123px;
+
+    background-image: linear-gradient(to top, transparent 28%, var(--color-white) 28%, var(--color-white) 100%);
+  }
+}
+
+/* Title */
+
+.lottery__title {
+  margin: 0;
+
+  line-height: 1.46;
+}
+
+
+@media (width <= 640px) {
+  .lottery__title {
+    margin-bottom: 40px;
+
+    font-size: 36px;
+  }
+}
+
+@media (width > 640px) {
+  .lottery__title {
+    margin-bottom: 74px;
+    padding-left: 65px;
+
+    font-size: 48px;
+  }
+}
+
+/* About */
+
+.lottery__about {
+  display: grid;
+}
+
+@media (width <= 640px) {
+  .lottery__about {
+    margin-bottom: 48px;
+
+    row-gap: 32px;
+  }
+}
+
+@media (width > 640px) {
+  .lottery__about {
+    justify-content: start;
+    margin-bottom: 144px;
+    padding-left: 65px;
+
+    column-gap: 175px;
+
+    grid-auto-flow: column;
+  }
+}
+
+/* Info */
+
+.lottery__info {
+  overflow: hidden;
+
+}
+
+@media (width <= 640px) {
+  .lottery__info {
+    border-radius: 8px;
+  }
+}
+
+@media (width > 640px) {
+  .lottery__info {
+    display: grid;
+
+    border-radius: 10px;
+
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Statistic */
+
+.lottery__statistic {
+  margin: 0;
+
+  color: var(--color-white);
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+.lottery__statistic--market {
+  position: relative;
+
+  background-color: var(--color-malibu-light);
+  background-image: url("../../images/lottery/market.svg");
+}
+.lottery__statistic--market::before {
+  content: url("../../images/lottery/percent.svg");
+  position: absolute;
+
+  display: block;
+}
+.lottery__statistic--population {
+  background-color: var(--color-malibu);
+  background-image: url("../../images/lottery/population.svg");
+}
+
+
+@media (width <= 640px) {
+  .lottery__statistic {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    font-size: 18px;
+    text-align: center;
+
+    background-size: 280px auto;
+  }
+  .lottery__statistic--market {
+    padding-top: 144px;
+
+    background-position: center 56px;
+  }
+  .lottery__statistic--market::before {
+    top: 32px;
+    left: 50%;
+
+    width: 100px;
+    height: 103px;
+
+    transform: translateX(-162px);
+  }
+  .lottery__statistic--population {
+    padding-top: 144px;
+
+    background-position: center 48px;
+  }
+}
+
+@media (width > 640px) {
+  .lottery__statistic {
+    font-size: 40px;
+  }
+  .lottery__statistic--market {
+    padding-top: 405px;
+    padding-right: 79px;
+    padding-bottom: 81px;
+    padding-left: 134px;
+
+    line-height: 1.25;
+
+    background-position: 31px 181px;
+  }
+  .lottery__statistic--market::before {
+    top: 134px;
+    left: -6px;
+
+    width: 200px;
+    height: 188px;
+  }
+  .lottery__statistic--population {
+    padding-top: 412px;
+    padding-right: 79px;
+    padding-bottom: 81px;
+    padding-left: 96px;
+
+    line-height: 1.05;
+
+    background-position: -12px 158px;
+  }
+}

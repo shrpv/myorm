@@ -1,0 +1,21 @@
+/* Variables */
+
+:root {
+  --color-alabaster: #f9f9f9;
+  --color-alto: #cecece;
+  --color-alto-25a: rgb(206 206 206 / 0.25);
+  --color-athens-grey: #eeeff3;
+  --color-black: #000000;
+  --color-blue: #5a9ff4;
+  --color-gallery: #ededed;
+  --color-grey: #8e8e8e;
+  --color-haiti: #0b132a;
+  --color-malibu: #7cbafc;
+  --color-malibu-light: #84c1fe;
+  --color-pumpkin: #fe751a;
+  --color-shark: #282e34;
+  --color-stone: #757a7f;
+  --color-trout: #4f5665;
+  --color-whisper: #fbfbfd;
+  --color-white: #ffffff;
+}

@@ -1,0 +1,43 @@
+/* Product Sans */
+
+@font-face {
+  font-weight: 400;
+  font-family: "Product Sans";
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/product-sans/regular.woff2") format("woff2");
+}
+
+/* Product Sans Bold */
+
+@font-face {
+  font-weight: 700;
+  font-family: "Product Sans";
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/product-sans/bold.woff2") format("woff2");
+}
+
+/* Product Sans Italic */
+
+@font-face {
+  font-weight: 400;
+  font-family: "Product Sans";
+  font-style: italic;
+
+  font-display: swap;
+  src: url("../fonts/product-sans/italic.woff2") format("woff2");
+}
+
+/* Product Sans Bold Italic */
+
+@font-face {
+  font-weight: 700;
+  font-family: "Product Sans";
+  font-style: italic;
+
+  font-display: swap;
+  src: url("../fonts/product-sans/bold-italic.woff2") format("woff2");
+}

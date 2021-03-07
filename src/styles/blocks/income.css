@@ -1,0 +1,41 @@
+/* Income */
+
+/* Sum */
+
+.income__sum {
+  margin: 0;
+
+  font-weight: 700;
+}
+
+@media (width <= 640px) {
+  .income__sum {
+    font-size: 14px;
+  }
+}
+
+@media (width > 640px) {
+  .income__sum {
+    font-size: 16px;
+  }
+}
+
+/* Friends */
+
+.income__friends {
+  margin: 0;
+
+  color: var(--color-grey);
+}
+
+@media (width <= 640px) {
+  .income__friends {
+    font-size: 12px;
+  }
+}
+
+@media (width > 640px) {
+  .income__friends {
+    font-size: 14px;
+  }
+}

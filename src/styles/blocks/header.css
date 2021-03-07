@@ -1,0 +1,55 @@
+/* Header */
+
+@media (width <= 640px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media (width > 640px) {
+  .header {
+    padding-top: 34px;
+    padding-bottom: 26px;
+  }
+}
+
+/* Container */
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+
+.header__logo {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-haiti);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (width <= 640px) {
+  .header__logo {
+    margin-right: auto;
+  }
+}
+
+@media (width > 640px) {
+  .header__logo {
+    margin-right: 151px;
+  }
+}
+
+/* Menu */
+
+@media (width > 640px) {
+  .header__menu {
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,137 @@
+/* Hero */
+
+.hero {
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+@media (width <= 640px) {
+  .hero {
+    padding-top: 196px;
+
+    background-image: url("../../images/hero/bg.svg"), linear-gradient(to top, var(--color-white) 15%, transparent 15%, transparent 100%);
+    background-size: 320px auto, auto;
+    background-position: center top, center bottom;
+  }
+}
+
+@media (width > 640px) {
+  .hero {
+    padding-top: 58px;
+
+    background-image: url("../../images/hero/bg.svg"), linear-gradient(to top, var(--color-white) 38%, transparent 38%, transparent 100%);
+    background-position: right top, center bottom;
+    background-size: 966px auto, auto;
+  }
+}
+
+/* Container */
+
+@media (width > 640px) {
+  .hero__container {
+    padding-left: 103px;
+  } 
+}
+
+/* Title */
+
+.hero__title {
+  margin: 0;
+
+  line-height: 1.1;
+}
+
+@media (width <= 640px) {
+  .hero__title {
+    margin-bottom: 16px;
+
+    font-size: 44px;
+  }
+}
+
+@media (width > 640px) {
+  .hero__title {
+    max-width: 470px;
+    margin-bottom: 23px;
+
+    font-size: 60px;
+  }
+}
+
+/* Text */
+
+.hero__text {
+  margin: 0;
+
+  color: var(--color-stone);
+}
+
+@media (width <= 640px) {
+  .hero__text {
+    margin-bottom: 32px;
+
+    font-size: 12px;
+  }
+}
+
+@media (width > 640px) {
+  .hero__text {
+    max-width: 390px;
+    margin-bottom: 45px;
+
+    font-size: 16px;
+  }
+}
+
+/* Actions */
+
+.hero__actions {
+  display: grid;
+  justify-content: start;
+
+  grid-auto-flow: column;
+}
+
+@media (width <= 640px) {
+  .hero__actions {
+    margin-bottom: 56px;
+
+    column-gap: 12px;
+  }
+}
+
+@media (width > 640px) {
+  .hero__actions {
+    margin-bottom: 98px;
+
+    column-gap: 20px;
+  }
+}
+
+/* Main */
+
+@media (width <= 640px) {
+  .hero__main {
+    min-width: 112px;
+  }
+}
+
+@media (width > 640px) {
+  .hero__main {
+    min-width: 160px;
+  }
+}
+
+/* Secondary */
+
+@media (width <= 640px) {
+  .hero__secondary {
+    min-width: 154px;
+  }
+}
+
+@media (width > 640px) {
+  .hero__secondary {
+    min-width: 218px;
+  }
+}

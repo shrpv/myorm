@@ -1,0 +1,46 @@
+/* Page */
+
+.page {
+  line-height: 1.5;
+  font-family: "Product Sans", sans-serif;
+  color: var(--color-haiti);
+
+  background-color: var(--color-athens-grey);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Body */
+
+.page__body {
+  margin: 0;
+}
+
+@media (width <= 640px) {
+  .page__body {
+    min-width: 320px;
+  }
+}
+
+@media (width > 640px) {
+  .page__body {
+    max-width: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* Header */
+
+@media (width <= 640px) {
+  .page__header {
+    margin-bottom: 12px;
+  }
+}
+
+@media (width > 640px) {
+  .page__header {
+    margin-bottom: 13px;
+  }
+}

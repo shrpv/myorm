@@ -1,0 +1,85 @@
+/* Model */
+
+/* Container */
+
+@media (width > 640px) {
+  .model__container {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+/* Title */
+
+.model__title {
+  margin: 0;
+
+  line-height: 1.25;
+}
+
+@media (width <= 640px) {
+  .model__title {
+    margin-bottom: 40px;
+
+    font-size: 36px;
+  }
+}
+
+@media (width > 640px) {
+  .model__title {
+    margin-bottom: 61px;
+    padding-left: 40px;
+
+    font-size: 48px;
+  }
+}
+
+/* Block */
+
+.model__block {
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+.model__block--business {
+  background-image: url("../../images/model/business.svg");
+  background-position: left top;
+}
+.model__block--ticket {
+  background-image: url("../../images/model/ticket.svg");
+  background-position: right top;
+}
+
+@media (width <= 640px) {
+  .model__block {
+    background-position: center top;
+    background-size: 280px auto;
+  }
+  .model__block--business {
+    margin-bottom: 36px;
+    padding-top: 200px;
+  }
+  .model__block--ticket {
+    padding-top: 168px;
+  }
+}
+
+@media (width > 640px) {
+  .model__block {
+    display: flex;
+    background-size: auto 100%;
+  }
+  .model__block--business {
+    justify-content: flex-end;
+    margin-bottom: 42px;
+    padding-top: 53px;
+    padding-right: 168px;
+    padding-bottom: 66px;
+  }
+  .model__block--ticket {
+    justify-content: flex-start;
+    min-height: 377px;
+    padding-top: 59px;
+    padding-bottom: 79px;
+    padding-left: 69px;
+  }
+}

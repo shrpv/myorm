@@ -1,0 +1,79 @@
+/* Card */
+
+.card {
+  position: relative;
+}
+.card::before {
+  content: url("../../images/check.svg");
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+@media (width <= 640px) {
+  .card {
+    padding-left: 32px;
+  }
+  .card::before {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (width > 640px) {
+  .card {
+    width: 402px;
+    padding-left: 46px;
+  }
+  .card::before {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Title */
+
+.card__title {
+  margin: 0;
+
+  line-height: 1.5;
+  color: var(--color-shark);
+}
+
+@media (width <= 640px) {
+  .card__title {
+    margin-bottom: 8px;
+
+    font-size: 18px;
+  }
+}
+
+@media (width > 640px) {
+  .card__title {
+    max-width: 258px;
+    margin-bottom: 21px;
+
+    font-size: 24px;
+  }
+}
+
+/* Text */
+
+.card__text {
+  margin: 0;
+
+  line-height: 1.87;
+  color: var(--color-stone);
+}
+
+@media (width <= 640px) {
+  .card__text {
+    font-size: 12px;
+  }
+}
+
+@media (width > 640px) {
+  .card__text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,40 @@
+/* Main */
+
+/* Hero */
+
+.main__hero {
+}
+
+/* Lottery */
+
+@media (width <= 640px) {
+  .main__lottery {
+    margin-bottom: 64px;
+  }
+}
+
+@media (width > 640px) {
+  .main__lottery {
+    margin-bottom: 109px;
+  }
+}
+
+/* Model */
+
+.main__model {
+  margin-bottom: 64px;
+}
+
+/* Cryptocurrency */
+
+@media (width <= 640px) {
+  .main__cryptocurrency {
+    margin-bottom: 64px;
+  }
+}
+
+@media (width > 640px) {
+  .main__cryptocurrency {
+    margin-bottom: 125px;
+  } 
+}
